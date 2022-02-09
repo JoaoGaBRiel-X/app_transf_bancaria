@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qrTNn+L5LdffSsLq8DXrY8RtwMqOHzWYS27K/3flvsA+2/Q/2zdxK+jqulSsIguAua+WfP5TwFKj9LYCLuQLWQ==",
+  "dgSpecHash": "UDX+VNjBXJdGAWuUjus4GMkaK+XR3k2Kv3mLRcM5gYx+ZpsUwN7Mlx7ROL//w+M+u7JzlewvSCHQCHuJkA/kGQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\DIO.Bank.csproj",
+  "projectFilePath": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\app_transf_bancaria\\DIO.Bank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

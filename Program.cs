@@ -39,13 +39,33 @@
             Console.ReadLine();
         }
 
+        private static bool ValidaConta(int indiceConta)
+        {
+            if (indiceConta >= listContas.Count)
+            {
+                Console.WriteLine($"Conta de indice {indiceConta} não existe, verifique o numero digitado e repita o processo.");
+                return false;
+            }
+            return true;
+        }
+
         private static void Transferir()
         {
             Console.Write("Digite o número da conta de origem: ");
             int indiceContaOrigem = int.Parse(Console.ReadLine());
+            if (!ValidaConta(indiceContaOrigem))
+            {
+                Console.WriteLine("Operação Cancelada");
+                return;
+            }
 
             Console.Write("Digite o número da conta de destino: ");
             int indiceContaDestino = int.Parse(Console.ReadLine());
+            if (!ValidaConta(indiceContaDestino))
+            {
+                Console.WriteLine("Operação Cancelada");
+                return;
+            }
 
             Console.Write("Digite o valor a ser transferido: ");
             double valorTransferencia = double.Parse(Console.ReadLine());
@@ -57,6 +77,11 @@
         {
             Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
+            if (!ValidaConta(indiceConta))
+            {
+                Console.WriteLine("Operação Cancelada");
+                return;
+            }
 
             Console.Write("Digite o valor a ser depositado: ");
             double valorDeposito = double.Parse(Console.ReadLine());
@@ -68,6 +93,11 @@
         {
             Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
+            if (!ValidaConta(indiceConta))
+            {
+                Console.WriteLine("Operação Cancelada");
+                return;
+            }
 
             Console.Write("Digite o valor a ser sacado: ");
             double valorSaque = double.Parse(Console.ReadLine());

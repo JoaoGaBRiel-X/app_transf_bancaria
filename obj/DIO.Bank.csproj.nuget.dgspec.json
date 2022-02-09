@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\DIO.Bank.csproj": {}
+    "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\app_transf_bancaria\\DIO.Bank.csproj": {}
   },
   "projects": {
-    "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\DIO.Bank.csproj": {
+    "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\app_transf_bancaria\\DIO.Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\DIO.Bank.csproj",
+        "projectUniqueName": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\app_transf_bancaria\\DIO.Bank.csproj",
         "projectName": "DIO.Bank",
-        "projectPath": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\DIO.Bank.csproj",
+        "projectPath": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\app_transf_bancaria\\DIO.Bank.csproj",
         "packagesPath": "C:\\Users\\joaog\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\obj\\",
+        "outputPath": "D:\\Users\\joaog\\Desktop\\DIO\\Projetos\\APP_transf_bancaria_dotNET\\DIO.Bank\\app_transf_bancaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaog\\AppData\\Roaming\\NuGet\\NuGet.Config",
